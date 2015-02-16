@@ -1,6 +1,0 @@
-*.launch
-*.cproject
-*.project
-.settings
-obj/
-bin/
