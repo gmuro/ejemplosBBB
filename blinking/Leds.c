@@ -11,13 +11,13 @@
 #include "Leds.h"
 
 /*==================[macros and definitions]=================================*/
-#define LED0_PATH       "/sys/class/leds/beaglebone:green:usr0/brightness"
-#define LED1_PATH       "/sys/class/leds/beaglebone:green:usr1/brightness"
+#define LED0_PATH       "/sys/class/leds/beaglebone:green:heartbeat/brightness"
+#define LED1_PATH       "/sys/class/leds/beaglebone:green:mmc0/brightness"
 #define LED2_PATH       "/sys/class/leds/beaglebone:green:usr2/brightness"
 #define LED3_PATH       "/sys/class/leds/beaglebone:green:usr3/brightness"
 
-#define TRIGGER0_PATH   "/sys/class/leds/beaglebone:green:usr0/trigger"
-#define TRIGGER1_PATH   "/sys/class/leds/beaglebone:green:usr1/trigger"
+#define TRIGGER0_PATH   "/sys/class/leds/beaglebone:green:heartbeat/trigger"
+#define TRIGGER1_PATH   "/sys/class/leds/beaglebone:green:mmc0/trigger"
 #define TRIGGER2_PATH   "/sys/class/leds/beaglebone:green:usr2/trigger"
 #define TRIGGER3_PATH   "/sys/class/leds/beaglebone:green:usr3/trigger"
 
