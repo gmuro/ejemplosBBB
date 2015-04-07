@@ -4,7 +4,7 @@
 # Luciano Diamand lucianodiamand@yahoo.com
 #==========================================================================
  
-CFLAGS = -Wall
+CFLAGS = -Wall -g
 CC = arm-linux-gcc
 EXECUTABLE = hello
 OBJECTS = main.o
