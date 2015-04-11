@@ -5,7 +5,8 @@
 #==========================================================================
  
 CFLAGS = -Wall -g
-CC = arm-linux-gcc
+CROSS_COMPILE ?= arm-linux-
+CC = ${CROSS_COMPILE}gcc
 EXECUTABLE = hello
 OBJECTS = main.o
 OBIN = bin
